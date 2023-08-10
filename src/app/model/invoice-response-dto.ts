@@ -1,4 +1,7 @@
-export interface InvoiceResponseDTO {
+import { BaseDTO } from "./base-dto";
+import { OrderResponseDTO } from "./order-response-dto";
+
+export interface InvoiceResponseDTO extends BaseDTO {
     billno: number;
     billDate: number;
     taxRate: number;

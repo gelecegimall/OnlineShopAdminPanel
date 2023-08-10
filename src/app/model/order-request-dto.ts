@@ -1,7 +1,8 @@
-import {OrderStatusEnum} from "./order-status-enum";
+import {OrderStatusEnum} from "./enum/order-status-enum";
 import {CustomerRequestDTO} from "./customer-request-dto";
+import { BaseDTO } from "./base-dto";
 
-export interface OrderRequestDTO {
+export interface OrderRequestDTO extends BaseDTO {
   customer: CustomerRequestDTO
   orderStatus: OrderStatusEnum
   orderList: OrderRequestDTO[]
