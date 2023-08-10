@@ -1,3 +1,5 @@
+import { OrderResponseDTO } from "./order-response-dto";
+
 export interface InvoiceResponseDTO {
     billno: number;
     billDate: number;

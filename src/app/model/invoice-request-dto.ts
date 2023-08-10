@@ -1,3 +1,5 @@
+import { OrderRequestDTO } from "./order-request-dto";
+
 export interface InvoiceRequestDTO {
     billno: number;
     billDate: number;
