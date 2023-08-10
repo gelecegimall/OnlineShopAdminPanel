@@ -1,4 +1,6 @@
-export interface SellerRequestDTO {
+import { BaseDTO } from "./base-dto";
+
+export interface SellerRequestDTO extends BaseDTO {
     name: string;
     surname: string;
     tc: string;
