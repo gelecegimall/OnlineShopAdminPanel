@@ -1,12 +1,12 @@
-import { AddressDTO } from "./address";
+import { AddressResponseDTO } from "./address";
 
-export interface PersonDTO{
+export interface PersonResponseDTO{
     id: number;
     name: string;
     surname: string;
     birthYear: number;
     tc: string;
-    addressList: AddressDTO[];
+    addressList: AddressResponseDTO[];
 }
 
 export interface PersonRequestDTO{
@@ -14,5 +14,5 @@ export interface PersonRequestDTO{
     surname: string;
     birthYear: number;
     tc: string;
-    addressList: AddressDTO[];
+    addressList: AddressResponseDTO[];
 }

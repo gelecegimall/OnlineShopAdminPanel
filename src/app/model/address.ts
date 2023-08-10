@@ -1,15 +1,15 @@
-import { PersonDTO } from "./person";
+import { PersonResponseDTO } from "./person";
 
-export interface AddressDTO{
+export interface AddressResponseDTO{
     id: number;
     title: string;
     address: string;
-    person: PersonDTO;
+    person: PersonResponseDTO;
 }
 
 export interface AddressRequestDTO{
     id: number;
     title: string;
     address: string;
-    person: PersonDTO;
+    person: PersonResponseDTO;
 }
