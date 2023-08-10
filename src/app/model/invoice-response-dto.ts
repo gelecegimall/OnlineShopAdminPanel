@@ -5,5 +5,5 @@ export interface InvoiceResponseDTO {
     taxAmount: number;
     totalSellNetPrice: number;
     totalSellPrice: number;
-    order: OrderRequestDTO;
+    order: OrderResponseDTO;
 }

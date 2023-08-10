@@ -1,5 +1,9 @@
 export interface InvoiceRequestDTO {
-    name:string;
-    code:string;
-    rate:number;
+    billno: number;
+    billDate: number;
+    taxRate: number;
+    taxAmount: number;
+    totalSellNetPrice: number;
+    totalSellPrice: number;
+    order: OrderRequestDTO;
 }
