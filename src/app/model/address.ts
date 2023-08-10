@@ -11,5 +11,5 @@ export interface AddressRequestDTO{
     id: number;
     title: string;
     address: string;
-    personId: PersonDTO;
+    person: PersonDTO;
 }
